@@ -1,0 +1,94 @@
+header {
+    background-image: url(/images/excursions-img/excursions__header__bg.webp);
+    min-height: 289px;
+}
+
+.general__title__line {
+    margin-top: 58px;
+}
+
+.page {
+    min-height: 100vh;
+}
+
+main {
+    background: #FBFBFB;
+    padding-top: 40px;
+}
+
+.min__filter__container {
+    max-width: 1120px;
+    min-height: 260px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type__tour {
+    display: inline-block;
+    margin: 60px 0;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+input[type=radio] + label {
+    display: inline-block;
+    font-weight: 500;
+    border-bottom: 2px solid #D4D4D4;
+    margin: -3px;
+    padding: 4px 10px;
+}
+
+input[type=radio]:checked + label {
+    color: #0499DD;
+    border-color: #0499DD;
+}
+
+select {
+    width: 235px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: 89% 50%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    appearance: none;
+    padding: 16px 25px;
+}
+
+select.location {
+    background-image: url(/images/Locate.png);
+}
+
+select.person {
+    background-image: url(/images/k.lb.png);
+}
+
+input[type=date] {
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    appearance: none;
+    padding: 16px 25px;
+    background-image: url(/images/Calendar.png);
+    background-repeat: no-repeat;
+    background-position: 89% 50%;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.variables__tour__btn {
+    width: 235px;
+    height: 50px;
+    border-radius: 10px;
+}

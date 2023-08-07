@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турагенство</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="/css/homework.css"> -->
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="first__line">
+                <div class="logo">
+                    <picture>
+                        <source srcset="/images/лого.avif" type="image/avif">
+                        <source srcset="/images/лого.webp" type="image/webp">
+                        <img src="/images/лого.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="burger__menu">
+                    <input id="menu_toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu_toggle">
+                      <span></span>
+                    </label>
+                    <nav class="nav">
+                        <ul class="navbar">
+                            <li class="navbar__item active"><a class = "navbar__link">Главная</a></li>
+                            <li class="navbar__item"><a href="excursions.html" class = "navbar__link">Экскурсии</a></li>
+                            <li class="navbar__item"><a class = "navbar__link">Личный кабинет</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="general__title__line">
+                <div class="general__title">
+                    <h1>ПУТЕШЕСТВУЙ</h1>
+                    <span class="mr_KindlyJasmineG">вместе с</span>
+                    <span class="transparent__text">PERO TRAVEL</span>
+                </div>
+                <ul class="social__networks">
+                    <li class="social__networks__item">
+                        <a href="#" class="social_link">
+                            <picture>
+                                <source srcset="/images/Vector.avif" type="image/avif">
+                                <source srcset="/images/Vector.webp" type="image/webp">
+                                <img src="/images/Vector.png" alt="VK">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="social__networks__item">
+                        <a href="#" class="social_link">
+                            <picture>
+                                <source srcset="images/Group.avif" type="image/avif">
+                                <source srcset="images/Group.webp" type="image/webp">
+                                <img src="/images/Group.png" alt="instagram">
+                            </picture>
+                        </a>
+                    </li>
+                    <li class="social__networks__item">
+                        <a href="#" class="social_link">
+                            <picture>
+                                <source srcset="images/facebook.avif" type="image/avif">
+                                <source srcset="images/facebook.webp" type="image/webp">
+                                <img src="/images/facebook.png" alt="facebook">
+                            </picture>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn header__btn">К экскурсиям</button>
+            <!-- <div class="homework__container">
+                <h2>ДОМАШНИЕ ЗАДАНИЯ!</h2>
+                <button class="btn">Кнопка 1</button>
+                <button class="btn">Кнопка 2</button>
+                <button class="btn">Кнопка 3</button>
+                <button class="btn form__btn">РЕГИСТРАЦИЯ В МОДАЛЬНОМ ОКНЕ!</button>
+                <div class="modal">
+                    <form class="homework__form" action="#">
+                        <input type="text" name="name" placeholder="Введите имя">
+                        <input type="text" name="second_name" placeholder="Введите фамилию">
+                        <input type="date" name="birthday" placeholder="Введите дату рождения">
+                        <div class="radio">
+                            <label><input type="radio" name="gender" value="man">М</label>
+                            <label><input type="radio" name="gender" value="woman">Ж</label>
+                        </div>
+                        <button type="submit" class="btn">Отправить</button>
+                        <span class="close">&#10006</span>
+                    </form>
+                </div>
+            </div> -->
+        </header>
+
+
+        <main>
+            <div class="tour__list">
+                <div class="head__images">
+                    <div class="img1">
+                        <img src="/images/Group 34.png" alt="play">
+                    </div>
+                    <div class="img2"></div>
+                </div>
+                <div class="title__line">
+                    <h3>Популярные экскурсии</h3>
+                    <a href="#" class="tour__link">Смотреть все</a>
+                </div>
+                <div class="card__list">
+                    <div class="card card1">
+                        <span class="tour__type">Автобусный тур</span>
+                        <h5 class="card__title">Обзорная по Сочи (из Адлера)</h5>
+                        <div class="card__info">
+                            <div class="time">
+                                <img src="/images/time 1.png" alt="time">
+                            </div>
+                            <span class="time">6 часов</span>
+                            <div class="money">
+                                <img src="/images/Frame 1.png" alt="money">
+                            </div>
+                            <span class="price">618 ₽</span>
+                        </div>
+                        <p class="card__text">
+                            Приглашаем вас на экскурсию 
+                            "Обзорная по Большому Сочи":
+                            Экскурсия начнется с подъёма на гору Большой Ахун - это  высшая точка (665 метров) на побережьи Сочи. На вершине горы Большой Ахун есть смотровая башня, построенная в 1935-36 годах по проекту архитектора С. И. Воробьева...
+                        </p>
+                        <button class="btn">Подробнее</button>
+                    </div>
+                    <div class="card card2">
+                        <span class="tour__type">Конный тур</span>
+                        <h5 class="card__title">Конные прогулки</h5>
+                        <div class="card__info">
+                            <div class="time">
+                                <img src="/images/time 1.png" alt="time">
+                            </div>
+                            <span class="time">1,5 часа</span>
+                            <div class="money">
+                                <img src="/images/Frame 1.png" alt="money">
+                            </div>
+                            <span class="price">1 809 ₽ </span>
+                        </div>
+                        <p class="card__text">
+                            Конные прогулки проходят в Лазурной долине. С долины открывается красивый вид на море, горы и лес. На всем пути следования экскурсии вас будут сопровождать опытные инструктора. Катание на лошадях или иппотерапия очень полезна для детей и взрослых...
+                        </p>
+                        <button class="btn">Подробнее</button>
+                    </div>
+                    <div class="card card3">
+                        <span class="tour__type">Квадротур</span>
+                        <h5 class="card__title">Пасть дракона</h5>
+                        <div class="card__info">
+                            <div class="time">
+                                <img src="/images/time 1.png" alt="time">
+                            </div>
+                            <span class="time">2,5 часа</span>
+                            <div class="money">
+                                <img src="/images/Frame 1.png" alt="money">
+                            </div>
+                            <span class="price">3 515 ₽</span>
+                        </div>
+                        <p class="card__text">
+                            Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль белых скал и самшитовый лес к водопаду Глубокий Яр или "Пасть Дракона" (экскурсионное название).
+                            Высота водопада 41,5 метр - это один из самых высоких водопадов Большого Сочи...
+                        </p>
+                        <button class="btn">Подробнее</button>
+                    </div>
+                    <div class="card card4">
+                        <span class="tour__type">Автобусный тур</span>
+                        <h5 class="card__title">Женский монастырь</h5>
+                        <div class="card__info">
+                            <div class="time">
+                                <img src="/images/time 1.png" alt="time">
+                            </div>
+                            <span class="time">4 часа</span>
+                            <div class="money">
+                                <img src="/images/Frame 1.png" alt="money">
+                            </div>
+                            <span class="price">618 ₽</span>
+                        </div>
+                        <p class="card__text">
+                            Троице - Георгиевский женский монастырь расположен в селе Лесное в живописном месте, в котором гармонично сочетаются красота природы и красота архитектуры сотворенная руками человека.
+                            Это удивительное место расположено совсем недалеко от Чёрного моря - всего в 20 километрах 
+                        </p>
+                        <button class="btn">Подробнее</button>
+                    </div>
+                </div>
+                <div class="scroll__control">
+                    <div class="left__arrow"></div>
+                    <div class="right__arrow"></div>
+                    <div class="scroll__line">
+                        <div class="scroll"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about__us">
+                <div class="pic__about__us">
+                    <picture>
+                        <source srcset="images/Rectangle 4.avif" type="image/avif">
+                        <source srcset="images/Rectangle 4.webp" type="image/webp">
+                        <img src="images/Rectangle 4.png" alt="img">
+                    </picture>
+                </div>
+                <div class="about__us__text">
+                    <h3>О нас</h3>
+                    <p class="text">
+                        PeroTravel - Первый онлайн-сервис по бронированию экскурсий без очередей и операторов.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                    <p class="text">
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                    </p>
+                </div>
+            </div>
+            <div class="tour__type">
+                <h3>Виды экскурсий</h3>
+                <div class="tour__type__list">
+                    <div class="tour__type__card">
+                        <div class="tour__type__img">
+                            <picture>
+                                <source srcset="/images/1.avif" type="image/avif">
+                                <source srcset="/images/1.webp" type="image/webp">
+                                <img src="/images/1.png" alt="bus">
+                            </picture>
+                        </div>
+                        <div class="tour__type__text">
+                            <h4 class="tour__type__title">Автобусный тур</h4>
+                            <p>
+                                Один из самых насыщенных впечатлениями, доступных по цене и популярных видов отдыха. Во время одной поездки можно посмотреть достопримечательности сразу нескольких городов, причем обойдется это едва ли не в разы дешевле классического экскурсионного тура с ночевками в отелях.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tour__type__card">
+                        <div class="tour__type__img">
+                            <picture>
+                                <source srcset="/images/2.avif" type="image/avif">
+                                <source srcset="/images/2.webp" type="image/webp">
+                                <img src="/images/2.png" alt="car">
+                            </picture>
+                        </div>
+                        <div class="tour__type__text">
+                            <h4 class="tour__type__title">Джиппинг</h4>
+                            <p>
+                                Это путешествие на автомобилях высокой проходимости с преодолением естественных препятствий, это экстремальный вид спорта и отдыха, представляющий собой прохождение туристического маршрута по бездорожью на автомобилях.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tour__type__card">
+                        <div class="tour__type__img">
+                            <picture>
+                                <source srcset="/images/3.avif" type="image/avif">
+                                <source srcset="/images/3.webp" type="image/webp">
+                                <img src="/images/3.png" alt="boat">
+                            </picture>
+                        </div>
+                        <div class="tour__type__text">
+                            <h4 class="tour__type__title">Яхтинг</h4>
+                            <p>
+                                Это то же, что круиз на лайнере или прогулка на пароме, только на яхте больше свободы, размеры судна в разы меньше, нет назойливой команды, можно самостоятельно почувствовать себя капитаном, постоять за штурвалом. Именно здесь вы почувствуете величайшие просторы Черногор моря.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tour__type__card">
+                        <div class="tour__type__img">
+                            <picture>
+                                <source srcset="/images/1.avif" type="image/avif">
+                                <source srcset="/images/1.webp" type="image/webp">
+                                <img src="/images/1.png" alt="bus">
+                            </picture>
+                        </div>
+                        <div class="tour__type__text">
+                            <h4 class="tour__type__title">Каньонинг</h4>
+                            <p>
+                                Это экстремально-спортивный вид отдыха, который заключается в преодолении каньонов (обводненных или нет) при помощи альпинистского и иного снаряжения, а иногда и вброд, но без лодок или иных плавсредств.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <span class="tour__type__buttom__text">
+                    Выбирайте на нашем сайте экскурсию, которая подходит именно вам и записывайтесь онлайн без очередей, просто и быстро!
+                </span>
+                <button class="btn">К экскурсиям</button>
+            </div>
+            <div class="gallery">
+                <div class="title__line">
+                    <h3>Галлерея</h3>
+                    <a href="" class="gallery__link">Смотреть все</a>
+                </div>
+                <div class="gallery__img">
+                    <div class="pic pic1">
+                        <picture>
+                            <source srcset="images/gallery2.avif" type="image/avif">
+                            <source srcset="images/gallery2.webp" type="image/webp">
+                            <img src="images/gallery2.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic2">
+                        <picture>
+                            <source srcset="images/gallery3.avif" type="image/avif">
+                            <source srcset="images/gallery3.webp" type="image/webp">
+                            <img src="images/gallery3.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic3">
+                        <picture>
+                            <source srcset="images/gallery4.avif" type="image/avif">
+                            <source srcset="images/gallery4.webp" type="image/webp">
+                            <img src="images/gallery4.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic4">
+                        <picture>
+                            <source srcset="images/gallery5.avif" type="image/avif">
+                            <source srcset="images/gallery5.webp" type="image/webp">
+                            <img src="images/gallery5.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic5">
+                        <picture>
+                            <source srcset="images/gallery6.avif" type="image/avif">
+                            <source srcset="images/gallery6.webp" type="image/webp">
+                            <img src="images/gallery6.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic6">
+                        <picture>
+                            <source srcset="images/gallery7.avif" type="image/avif">
+                            <source srcset="images/gallery7.webp" type="image/webp">
+                            <img src="images/gallery7.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic7">
+                        <picture>
+                            <source srcset="images/gallery8.avif" type="image/avif">
+                            <source srcset="images/gallery8.webp" type="image/webp">
+                            <img src="images/gallery8.jpg" alt="img">
+                        </picture>
+                    </div>
+                    <div class="pic pic8">
+                        <picture>
+                            <source srcset="images/gallery1.avif" type="image/avif">
+                            <source srcset="images/gallery1.webp" type="image/webp">
+                            <img src="images/gallery1.jpg" alt="img">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews">
+                <div class="title__line">
+                    <h3>Отзывы</h3>
+                    <a href="" class="reviews__link">Смотреть все</a>
+                </div>
+                <div class="reviews__card__list">
+                    <div class="reviews__card">
+                        <div class="reviews__img">
+                            <picture>
+                                <source srcset="images/Rectangle 26.avif" type="image/avif">
+                                <source srcset="images/Rectangle 26.webp" type="image/webp">
+                                <img src="images/Rectangle 26.jpg" alt="img">
+                            </picture>
+                        </div>
+                        <div class="reviews__text">
+                            <h6>Иван Иванов, 25 лет</h6>
+                            <p class="reviews__card__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="reviews__card">
+                        <div class="reviews__img">
+                            <picture>
+                                <source srcset="images/Rectangle 28.avif" type="image/avif">
+                                <source srcset="images/Rectangle 28.webp" type="image/webp">
+                                <img src="images/Rectangle 28.jpg" alt="img">
+                            </picture>
+                        </div>
+                        <div class="reviews__text">
+                            <h6>Иван Иванов, 25 лет</h6>
+                            <p class="reviews__card__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll__control">
+                    <div class="left__arrow"></div>
+                    <div class="right__arrow"></div>
+                    <div class="scroll__line">
+                        <div class="scroll"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback">
+                <form action="#" class="form">
+                    <h4>Остались вопросы?</h4>
+                    <span>Оставь заявку и мы ответим</span>
+                    <div class="box">
+                        <input type="text" class="input" id="name" placeholder="Имя">
+                        <!-- <label for="name">Имя</label> -->
+                    </div>
+                    <div class="box">
+                        <input type="tel" class="input" id="phone" placeholder="Телефон">
+                        <!-- <label for="phone">Телефон</label> -->
+                    </div>
+                    <div class="box">
+                        <input type="email" class="input" id="email" placeholder="Почта">
+                        <!-- <label for="email">Почта</label> -->
+                    </div>
+                    <button class="btn">Оставить заявку</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="logo">
+                <picture>
+                    <source srcset="/images/logo_color 1.avif" type="image/avif">
+                    <source srcset="/images/logo_color 1.webp" type="image/webp">
+                    <img src="/images/logo_color 1.png" alt="logo">
+                </picture>
+            </div>
+            <ul class="footer__navbar">
+                <li class="footer__navbar__item">
+                    <a href="#">Главная</a>
+                </li>
+                <li class="footer__navbar__item">
+                    <a href="#">Экскурсии</a>
+                </li>
+                <li class="footer__navbar__item">
+                    <a href="#">Личный кабинет</a>
+                </li>
+            </ul>
+            <ul class="contact__bar">
+                <li class="contact__bar__item">+7 964 944 18 74</li>
+                <li class="contact__bar__item">+7 918 919 98 28</li>
+                <li class="contact__bar__item">Телеграм-бот PeroTravel</li>
+                <li class="contact__bar__item">office@perotravel.ru</li>
+                <ul class="social__networks">
+                    <li class="social__networks__item"></li>
+                    <li class="social__networks__item"></li>
+                    <li class="social__networks__item"></li>
+                </ul>
+            </ul>
+        </footer>
+
+    </div>
+    <!-- <script src="/js/homework.js"></script> -->
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/excursions.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div class="first__line">
+                <div class="logo">
+                    <picture>
+                        <source srcset="/images/лого.avif" type="image/avif">
+                        <source srcset="/images/лого.webp" type="image/webp">
+                        <img src="/images/лого.png" alt="logo">
+                    </picture>
+                </div>
+                <div class="burger__menu">
+                    <input id="menu_toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu_toggle">
+                      <span></span>
+                    </label>
+                    <nav class="nav">
+                        <ul class="navbar">
+                            <li class="navbar__item"><a href="index.html" class = "navbar__link">Главная</a></li>
+                            <li class="navbar__item  active"><a class = "navbar__link">Экскурсии</a></li>
+                            <li class="navbar__item"><a class = "navbar__link">Личный кабинет</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="general__title__line">
+                <div class="general__title">
+                    <h1>НАШИ ЭКСКУРСИИ</h1>
+                </div>
+            </div>
+            <button class="btn header__btn">К экскурсиям</button>
+        </header>
+        <main>
+            <div class="min__filter__container">
+                <form action="#" class="type__tour">
+                    <div class="tour__type__radio">
+                        <input id="bus" type="radio" name="type">
+                        <label for="bus">
+                            АВТОБУСНЫЙ ТУР
+                        </label>
+                        <input id="car" type="radio" name="type">
+                        <label for="car">
+                            ДЖИПИНГ
+                        </label>
+                        <input id="ship" type="radio" name="type">
+                        <label for="ship">
+                            ЯХТИНГ
+                        </label>
+                        <input id="canyon" type="radio" name="type">
+                        <label for="canyon">
+                            КАНЬОНИНГ
+                        </label>
+                    </div>
+                </form>
+                <form action="#" class="variables__tour">
+                    <select name="location" class="location">
+                        <option value="Abhazia">Абхазия</option>
+                        <option value="Sochi">Сочи</option>
+                        <option value="Adler">Адлер</option>
+                        <option value="Krasnaya_polyana">Красная поляна</option>
+                    </select>
+                    <input type="date" value="10.11.2021">
+                    <select name="person" class="person">
+                        <option value="1">1 человек</option>
+                        <option value="2">2 человека</option>
+                        <option value="3">3 человека</option>
+                        <option value="4">4 человека</option>
+                        <option value="5">5 человек</option>
+                        <option value="6">6 человек</option>
+                        <option value="7">7 человек</option>
+                        <option value="8">8 человек</option>
+                        <option value="9">9 человек</option>
+                        <option value="10">10 человек</option>
+                        <option value="10+">более 10 человек</option>
+                    </select>
+                    <button class="btn variables__tour__btn">Показать</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
